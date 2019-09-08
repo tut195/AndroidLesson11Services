@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidLesson11Services</string>
+    <string name="start">Запустить службу</string>
+    <string name="start_task">Запустить задачу</string>
+    <string name="pause">Остановить задачу</string>
+    <string name="stop">Остановить службу</string>
 </resources>

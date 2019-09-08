@@ -21,7 +21,7 @@ public class App extends Application {
         intentFilter.addAction(Intent.ACTION_POWER_CONNECTED);
         intentFilter.addAction(Intent.ACTION_POWER_DISCONNECTED);
 
-        BroadcastReceiver battaryChrgingReceiver = new PowerConnectionReceiver();
-        registerReceiver(battaryChrgingReceiver, intentFilter);
+        BroadcastReceiver battaryChargingReceiver = new PowerConnectionReceiver();
+        registerReceiver(battaryChargingReceiver, intentFilter);
     }
 }
